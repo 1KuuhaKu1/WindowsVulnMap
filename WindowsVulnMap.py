@@ -6,6 +6,7 @@ import requests
 import re
 import json
 from typing import List, Dict, Set
+import time
 
 base_url = 'https://api.msrc.microsoft.com/cvrf/v2.0/'
 
@@ -460,7 +461,8 @@ if __name__ == "__main__":
 
         if not args.google:
             continue
-
+        
+        time.sleep(3)
         search_results = google_search_cve(
             v["CVE"],
             GOOGLE_API_KEY,

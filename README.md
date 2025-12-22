@@ -253,8 +253,7 @@ CVE-ID - 漏洞类型 - CVSS 分数 - 漏洞标题 - KB 列表
 	google预览，并标红包含CVE字样内容
 
 ```
-
-  ![[Pasted image 20251222190737.png]]
+![[https://github.com/1KuuhaKu1/WindowsVulnMap/blob/main/output_screenshot.png]]
 
 * CVSS 分数按最高 BaseScore 计算
 

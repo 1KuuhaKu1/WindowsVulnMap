@@ -62,19 +62,35 @@ If you want to enable the Google search feature, you will also need:
 
 ### Basic query (Google search disabled)
 
-`python WindowsVulMap.py --query "Windows 11 22H2"`
+```
+python WindowsVulMap.py --query "Windows 11 22H2"
+```
 
 ### Specify year and month
 
-`python WindowsVulMap.py \   --query "Windows 10 21H2" \   --years 2023 \   --months 1,2,3`
+```
+python WindowsVulMap.py \
+--query "Windows 10 21H2" \
+   --years 2023 \
+   --months 1,2,3
+```
 
 ### Show only Elevation of Privilege (EoP) vulnerabilities
 
-`python WindowsVulMap.py \   --query "Windows Server 2019" \   --only eop`
+```
+python WindowsVulMap.py \
+--query "Windows Server 2019" \
+--only eop
+```
 
 ### Enable Google PoC preview (optional)
 
-`python WindowsVulMap.py \   --query "Windows 11 22H2" \   --only eop \   --google`
+```
+python WindowsVulMap.py \
+--query "Windows 11 22H2" \
+--only eop \
+--google
+```
 
 > ⚠️ The Google search feature is disabled by default and is only triggered when `--google` is explicitly specified.
 

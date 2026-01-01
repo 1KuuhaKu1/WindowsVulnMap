@@ -91,8 +91,10 @@ If you want to enable the Google search feature, you will also need:
 
 Example:
 
-`[✔] Documentation and PoC for CVE-2023-21552 MSMQ Vulnerability   ← highlighted 
-[ ] Documentation and PoC for CVE-2023-21533 MSMQ Vulnerability   ← not highlighted`
+```
+[✔] Documentation and PoC for CVE-2023-21552 MSMQ Vulnerability   ← highlighted 
+[ ] Documentation and PoC for CVE-2023-21533 MSMQ Vulnerability   ← not highlighted
+```
 
 This design reduces PoC misclassification risk and serves **only as a supplementary judgment reference**.
 
@@ -118,7 +120,10 @@ This design reduces PoC misclassification risk and serves **only as a supplement
 
 Each vulnerability entry includes:
 
-`CVE-ID — Vulnerability Type — CVSS Score — Title — KB List     Google Preview (CVE occurrences highlighted in red)`
+```
+CVE-ID — Vulnerability Type — CVSS Score — Title — KB List     
+        Google Preview (CVE occurrences highlighted in red)
+```
 
 - CVSS score is based on the highest BaseScore
     

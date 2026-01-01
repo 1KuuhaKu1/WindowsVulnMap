@@ -174,11 +174,3 @@ Copyright (C) 2025 wyx0r
 This project is for learning and research use only.
 
 ---
-
-If you would like, I can also:
-
-- refine wording for open-source publication,
-    
-- produce a concise README version,
-    
-- or help adapt it for GitHub / PyPI style guidelines.
